@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import datos from '../assets/json/lista_provincias.json'
-import Provincia from './Provincia'
+import Provincia from '../components/Provincia'
 
 export default class Home extends Component {
 constructor(props){

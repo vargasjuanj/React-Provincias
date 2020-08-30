@@ -45,7 +45,7 @@ export default class DetalleProvincia extends Component {
                         <p>{poblacion}</p>
                         <p>{superficie}</p>
                         <p>{nroDepartamentos}</p>
-                        <p>{tienePuerto}</p>
+                        <p>{tienePuerto==='N'?'NO':'SI'}</p>
                     </div>
                 </div>
                 <div className="row">

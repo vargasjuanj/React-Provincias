@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
-import Home from './components/Home';
-import DetalleProvincia from './components/DetalleProvincia';
-import MapaArgentina from './components/MapaArgentina';
+import Home from './pages/Home';
+import DetalleProvincia from './pages/DetalleProvincia';
+import MapaArgentina from './pages/MapaArgentina';
 import MenuDeOpciones from './components/MenuDeOpciones';
 import Provincia from './components/Provincia';
 
